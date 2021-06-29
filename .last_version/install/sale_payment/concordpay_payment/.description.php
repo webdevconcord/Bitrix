@@ -1,8 +1,7 @@
-<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();?><?
-include(GetLangFileName(dirname(__FILE__) . "/", "/.description.php"));
+<?php if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die(); ?><?php
+include(GetLangFileName(__DIR__ . "/", "/.description.php"));
 
-
-$psTitle = "Concordpay";
+$psTitle = "ConcordPay";
 $psDescription = "<a href=\"https://pay.concord.ua\" target=\"_blank\">https://pay.concord.ua</a>";
 
 $array = array(
@@ -33,12 +32,6 @@ $arPSCorrespondence = array(
         "VALUE" => "CURRENCY",
         "TYPE" => "ORDER"
     ),
-    "CP_SERVER_CALLBACK_URL" => array(
-        "NAME" => GetMessage("CONCORDPAY_SERVER_CALLBACK_URL"),
-        "DESCR" => GetMessage("CONCORDPAY_SERVER_CALLBACK_URL_DESC"),
-        "VALUE" => "",
-        "TYPE" => ""
-    ),
     "CP_APPROVE_URL" => array(
         "NAME" => GetMessage("CONCORDPAY_APPROVE_URL"),
         "DESCR" => GetMessage("CONCORDPAY_APPROVE_URL_DESC"),
@@ -54,6 +47,12 @@ $arPSCorrespondence = array(
     "CP_CANCEL_URL" => array(
         "NAME" => GetMessage("CONCORDPAY_CANCEL_URL"),
         "DESCR" => GetMessage("CONCORDPAY_CANCEL_URL_DESC"),
+        "VALUE" => "",
+        "TYPE" => ""
+    ),
+    "CP_SERVER_CALLBACK_URL" => array(
+        "NAME" => GetMessage("CONCORDPAY_SERVER_CALLBACK_URL"),
+        "DESCR" => GetMessage("CONCORDPAY_SERVER_CALLBACK_URL_DESC"),
         "VALUE" => "",
         "TYPE" => ""
     ),
