@@ -122,11 +122,11 @@ $last_name = $arOrder['USER_LAST_NAME'];
 $street    = $arUser['PERSONAL_STREET'];
 $mailbox   = $arUser['PERSONAL_MAILBOX'];
 $city      = $arUser['PERSONAL_CITY'];
-
-$formFields['clientFirstName'] = isset($name) ? $name : '';
-$formFields['clientLastName']  = isset($last_name) ? $last_name : '';
-$formFields['clientEmail']     = $arOrder['USER_EMAIL'];
-$formFields['clientPhone']     = $phone;
+// Statistics.
+$formFields['client_first_name'] = $name ?? '';
+$formFields['client_last_name']  = $last_name ?? '';
+$formFields['email']             = $arOrder['USER_EMAIL'] ?? '';
+$formFields['phone']             = $phone ?? '';
 
 if ($city !== '') {
     $formFields['clientCity'] = $city;

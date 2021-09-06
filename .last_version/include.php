@@ -10,14 +10,14 @@
  *
  * @category  ConcordPay
  * @package   concordpay.payment
- * @version   1.0.0
+ * @version   1.0.1
  * @author    ConcordPay
  * @copyright Copyright (c) 2021 ConcordPay
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  *
  * EXTENSION INFORMATION
  *
- * 1C-Bitrix      20.300
+ * 1C-Bitrix      21.400
  * ConcordPay API https://pay.concord.ua/api/
  *
  */

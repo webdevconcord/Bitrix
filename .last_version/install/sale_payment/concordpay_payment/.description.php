@@ -15,52 +15,52 @@ $array = array(
 
 $arPSCorrespondence = array(
     "CP_MERCHANT_ID" => array(
-        "NAME" => GetMessage("CONCORDPAY_MERCHANT_ID"),
+        "NAME"  => GetMessage("CONCORDPAY_MERCHANT_ID"),
         "DESCR" => GetMessage("CONCORDPAY_MERCHANT_ID_DESC"),
         "VALUE" => "",
-        "TYPE" => ""
+        "TYPE"  => ""
     ),
     "CP_SECRET_KEY" => array(
-        "NAME" => GetMessage("CONCORDPAY_SECRET_KEY"),
+        "NAME"  => GetMessage("CONCORDPAY_SECRET_KEY"),
         "DESCR" => GetMessage("CONCORDPAY_SECRET_KEY_DESC"),
         "VALUE" => "",
-        "TYPE" => ""
+        "TYPE"  => ""
     ),
     "CP_PRICE_CURRENCY" => array(
-        "NAME" => GetMessage("CONCORDPAY_PRICE_CURRENCY"),
+        "NAME"  => GetMessage("CONCORDPAY_PRICE_CURRENCY"),
         "DESCR" => GetMessage("CONCORDPAY_PRICE_CURRENCY_DESC"),
         "VALUE" => "CURRENCY",
-        "TYPE" => "ORDER"
+        "TYPE"  => "ORDER"
     ),
     "CP_APPROVE_URL" => array(
-        "NAME" => GetMessage("CONCORDPAY_APPROVE_URL"),
+        "NAME"  => GetMessage("CONCORDPAY_APPROVE_URL"),
         "DESCR" => GetMessage("CONCORDPAY_APPROVE_URL_DESC"),
         "VALUE" => "",
-        "TYPE" => ""
+        "TYPE"  => ""
     ),
     "CP_DECLINE_URL" => array(
-        "NAME" => GetMessage("CONCORDPAY_DECLINE_URL"),
+        "NAME"  => GetMessage("CONCORDPAY_DECLINE_URL"),
         "DESCR" => GetMessage("CONCORDPAY_DECLINE_URL_DESC"),
         "VALUE" => "",
-        "TYPE" => ""
+        "TYPE"  => ""
     ),
     "CP_CANCEL_URL" => array(
-        "NAME" => GetMessage("CONCORDPAY_CANCEL_URL"),
+        "NAME"  => GetMessage("CONCORDPAY_CANCEL_URL"),
         "DESCR" => GetMessage("CONCORDPAY_CANCEL_URL_DESC"),
         "VALUE" => "",
-        "TYPE" => ""
+        "TYPE"  => ""
     ),
     "CP_SERVER_CALLBACK_URL" => array(
-        "NAME" => GetMessage("CONCORDPAY_SERVER_CALLBACK_URL"),
+        "NAME"  => GetMessage("CONCORDPAY_SERVER_CALLBACK_URL"),
         "DESCR" => GetMessage("CONCORDPAY_SERVER_CALLBACK_URL_DESC"),
         "VALUE" => "",
-        "TYPE" => ""
+        "TYPE"  => ""
     ),
     "CP_LANGUAGE" => array(
-        "NAME" => GetMessage("CONCORDPAY_LANGUAGE"),
+        "NAME"  => GetMessage("CONCORDPAY_LANGUAGE"),
         "DESCR" => GetMessage("CONCORDPAY_LANGUAGE_DESC"),
         "VALUE" => "RU",
-        "TYPE" => ""
+        "TYPE"  => ""
     ),
 );
 ?>
